@@ -1,0 +1,26 @@
+
+.app {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 30px auto;
+  max-width: 400px;
+}
+
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
